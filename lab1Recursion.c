@@ -26,7 +26,7 @@ void main()
     printf("\nProgram calculate n! by recursion(n<=15)");
     do
     {
-        printf("\nEnter n = ");
+        printf("\nENTER n = ");
         scanf("%d",&n);
         scanf("%c",&ch);
         while(ch!='\n'||n<0||n>15)
