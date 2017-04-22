@@ -26,7 +26,11 @@ void main()
     printf("\nProgram calculate n! by recursion(n<=15)");
     do
     {
+<<<<<<< HEAD
         printf("\nENTER n = ");
+=======
+        printf("\nenter n = ");
+>>>>>>> dbb686681beeed854829abcb60f4c085c5262f37
         scanf("%d",&n);
         scanf("%c",&ch);
         while(ch!='\n'||n<0||n>15)
@@ -41,6 +45,6 @@ void main()
         printf("press [y] to continue, others to exit. ");
         scanf("%s",&answer);
     }while(strcmp(answer,"y")==0);
-    printf("End Program.");
+    printf("End");
     printf("\nProgram writen by 57070501062 Nichanat Poonsawat");
 }
