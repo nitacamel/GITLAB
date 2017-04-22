@@ -20,7 +20,7 @@ long Factorial(int n)
 void main()
 {
     int n;
-    char answer[20];
+    char answer[50];
     char ch;
     printf("My Recursion Programs.");
     printf("\nProgram calculate n! by recursion(n<=15)");
