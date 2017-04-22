@@ -9,7 +9,7 @@ void main()
     int i=0,count,a=0;
     char *token;
 
-        printf("Command> ");
+        printf("COMMAND>> ");
         gets(command);
     do
     {
